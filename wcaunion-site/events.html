@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Events – Weingart Workers Union</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container site-header-inner">
+      <a href="index.html" class="site-logo">
+        <img src="assets/logo.png" alt="Weingart Workers Union logo" />
+        <span class="site-logo-text">Weingart Workers Union</span>
+      </a>
+
+      <!-- New hamburger button -->
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Add id="site-nav" for JS -->
+      <nav class="nav" id="site-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="events.html">Events</a>
+        <a href="why-unionize.html">Why Unionize</a>
+        <a href="get-involved.html">Get Involved</a>
+        <a href="resources.html">Resources</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="contact.html" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section section-light">
+      <div class="container">
+        <header class="section-header">
+          <div class="section-kicker">Events</div>
+          <h1 class="section-title">Upcoming meetings & actions</h1>
+          <p class="section-intro">
+            Check here for upcoming union meetings, one-on-one organizing sessions,
+            and actions. Update this page as you set new dates.
+          </p>
+        </header>
+
+        <!-- TODO: Update these cards as events change -->
+        <div class="section-grid section-grid-2">
+          <article class="card">
+            <h2 class="card-title">Organizing Committee Meeting</h2>
+            <p class="card-body">
+              <strong>Date:</strong> <!-- TODO: fill in --> <br />
+              <strong>Time:</strong> <!-- TODO: fill in --> <br />
+              <strong>Location:</strong> <!-- TODO: fill in (on-site / off-site / online) -->
+            </p>
+          </article>
+
+          <article class="card">
+            <h2 class="card-title">Know Your Rights / Union 101</h2>
+            <p class="card-body">
+              <strong>Date:</strong> <!-- TODO --> <br />
+              <strong>Time:</strong> <!-- TODO --> <br />
+              <strong>Location:</strong> <!-- TODO -->
+            </p>
+          </article>
+
+          <!-- Add more events as needed by duplicating these cards -->
+        </div>
+      </div>
+    </section>
+
+    <!-- New images from recent actions -->
+    <section class="section section-images">
+      <div class="container">
+        <header class="section-header">
+          <div class="section-kicker">In photos</div>
+          <h2 class="section-title">Scenes from recent meetings & actions</h2>
+          <p class="section-intro">
+            Swap in photos from your own events to show coworkers what organizing looks like in practice.
+          </p>
+        </header>
+
+        <div class="image-grid">
+          <figure class="image-card">
+            <img src="assets/events-1.jpg" alt="Union meeting with workers around a table" />
+            <figcaption>Workers gathering for a union meeting to share priorities.</figcaption>
+          </figure>
+
+          <figure class="image-card">
+            <img src="assets/events-2.jpg" alt="Group of workers at a rally or action" />
+            <figcaption>Weingart staff standing together for safer staffing and fair pay.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container">
+        <header class="section-header">
+          <div class="section-kicker">Can’t make a meeting?</div>
+          <h2 class="section-title">We’ll find a way to connect</h2>
+          <p class="section-intro">
+            If you’re on a difficult schedule or work nights, reach out and we’ll try to coordinate
+            a time that works for you.
+          </p>
+        </header>
+
+        <a href="contact.html" class="btn btn-primary">Contact the organizing committee</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer-inner">
+      <div>
+        &copy; <span id="year"></span> Weingart Workers Union. All rights reserved.
+      </div>
+      <div class="footer-support">
+        <span>Supported by OPEIU.</span>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </footer>
+</body>
+</html>

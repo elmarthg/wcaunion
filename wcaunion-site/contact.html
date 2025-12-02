@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact – Weingart Workers Union</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container site-header-inner">
+      <a href="index.html" class="site-logo">
+        <img src="assets/logo.png" alt="Weingart Workers Union logo" />
+        <span class="site-logo-text">Weingart Workers Union</span>
+      </a>
+
+      <!-- Hamburger button -->
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Main navigation -->
+      <nav class="nav" id="site-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="events.html">Events</a>
+        <a href="why-unionize.html">Why Unionize</a>
+        <a href="get-involved.html">Get Involved</a>
+        <a href="resources.html">Resources</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="contact.html" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section section-light">
+      <div class="container">
+        <header class="section-header">
+          <div class="section-kicker">Contact</div>
+          <h1 class="section-title">Get in touch with the organizing committee</h1>
+          <p class="section-intro">
+            Use this form to connect with Weingart workers helping lead the union effort.
+            Share your questions, concerns, or ideas. A worker-organizer will follow up as soon as possible.
+          </p>
+        </header>
+
+        <div class="contact-grid">
+          <!-- Contact form panel -->
+          <div class="contact-panel">
+            <form id="contact-form">
+              <div>
+                <label for="name">Name</label>
+                <input id="name" name="Name" type="text" required />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input id="email" name="Email" type="email" required />
+              </div>
+              <div>
+                <label for="role">Your role at Weingart (optional)</label>
+                <input id="role" name="Role" type="text" />
+              </div>
+              <div>
+                <label for="program">Program / department (optional)</label>
+                <input id="program" name="Program" type="text" />
+              </div>
+              <div>
+                <label for="message">How can we support you?</label>
+                <textarea id="message" name="Message" rows="5" required></textarea>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-primary">Send message</button>
+              </div>
+              <!-- Status text for success / error messages -->
+              <p id="contact-status" class="form-status" aria-live="polite"></p>
+            </form>
+          </div>
+
+          <!-- Info / FAQ panel -->
+          <aside class="contact-panel">
+            <dl class="contact-details">
+              <dt>Email</dt>
+              <dd>
+                <a href="mailto:weingartunion@gmail.com">weingartunion@gmail.com</a>
+              </dd>
+
+              <dt>Who reads these messages?</dt>
+              <dd>
+                Worker-organizers employed at Weingart Center who are part of the union campaign.
+                Management does not have access to these submissions.
+              </dd>
+
+              <dt>Confidentiality</dt>
+              <dd>
+                You can share as much or as little as you’re comfortable with.
+                If you’d rather talk off-site or off-hours, mention that in your message.
+              </dd>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- New image section for contact page -->
+    <section class="section section-muted">
+      <div class="container">
+        <header class="section-header">
+          <div class="section-kicker">Our workplace</div>
+          <h2 class="section-title">Images from Weingart Center</h2>
+          <p class="section-intro">
+            Add photos here that show your workplace and workers supporting one another.
+          </p>
+        </header>
+
+        <div class="image-grid">
+          <figure class="image-card">
+            <img src="assets/contact-1.jpg" alt="Exterior of Weingart Center" />
+            <figcaption>Weingart Center, where frontline staff support residents every day.</figcaption>
+          </figure>
+
+          <figure class="image-card">
+            <img src="assets/contact-2.jpg" alt="Coworkers talking in a hallway" />
+            <figcaption>Coworkers checking in with each other between shifts.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer-inner">
+      <div>
+        &copy; <span id="year"></span> Weingart Workers Union. All rights reserved.
+      </div>
+      <div class="footer-support">
+        <span>Supported by OPEIU.</span>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </footer>
+</body>
+</html>
